@@ -10,6 +10,7 @@ function scrollFunction() {
 
   if (window.innerWidth > 1290) {
     if (document.body.scrollTop > 228 || document.documentElement.scrollTop > 228) {
+      elsoGomb.style.bottom =  "150px";
       elsoGomb.style.display = "block";
     } else {
       elsoGomb.style.display = "none";
@@ -28,6 +29,7 @@ function scrollFunction() {
         harmadikGomb.style.display = "block";
     }else if (document.body.scrollTop > 162 || document.documentElement.scrollTop > 162 
       && (document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
+        harmadikGomb.style.bottom =  "100px";
         harmadikGomb.style.display = "block";
     }else {
       harmadikGomb.style.display = "none";
@@ -35,6 +37,7 @@ function scrollFunction() {
 
     if (document.body.scrollTop > 128 || document.documentElement.scrollTop > 128 
       && !(document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
+        negyedikGomb.style.bottom =  "50px";
         negyedikGomb.style.display = "block";
     }else {
       masodikGomb.style.bottom =  "50px";
@@ -172,9 +175,11 @@ const span = document.getElementById("bezar");
 
 span.onclick = function() { 
   modal.style.display = "none";
-  elsoGomb.style.display = "block";
-  masodikGomb.style.display = "block";
-  negyedikGomb.style.display = "block";
+  if (window.innerWidth > 1290) {
+    elsoGomb.style.display = "block";
+    masodikGomb.style.display = "block";
+    negyedikGomb.style.display = "block";
+  }
 
   document.body.classList.remove("stop-scrolling");
 }
