@@ -290,6 +290,8 @@ body {
 #belepo {
     position: fixed;
     z-index: 100;
+    height: 1080px;
+    width: 1920px;
     background-color: rgb(24, 24, 24);
     display: flex;
     justify-content: center;
@@ -937,12 +939,8 @@ footer h1 {
     box-shadow: 0 0 3px #ffffff;
     text-shadow: 0 0 1px #ffffff;
 }
-
-.scrollable-place {
-    height: 1000px;
-}
   
-.stop-scrolling {
+.neGorgess {
     height: 100%;
     overflow: hidden;
 }

@@ -168,7 +168,7 @@ function nagyitas(kep) {
   harmadikGomb.style.display = "none";
   negyedikGomb.style.display = "none";
 
-  document.body.classList.add("stop-scrolling");
+  document.body.classList.add("neGorgess");
 }
 
 const span = document.getElementById("bezar");
@@ -181,5 +181,5 @@ span.onclick = function() {
     negyedikGomb.style.display = "block";
   }
 
-  document.body.classList.remove("stop-scrolling");
+  document.body.classList.remove("neGorgess");
 }
