@@ -277,7 +277,7 @@ html {
 }
 
 body {
-    background-image: url(Images/hatter.png);
+    background-image: url(Images/hatter.jpg);
     background-repeat: no-repeat;
     background-size: 100% 30%;
     margin-right: 0;
@@ -503,7 +503,7 @@ p.besuhan {
 #CV {
     padding-top: 50px;
     padding-bottom: 1px;
-    background-image: url(Images/hatterCV.png);
+    background-image: url(Images/hatterCV.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
@@ -575,7 +575,7 @@ p.besuhan {
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    background-image: url(Images/hatterProjekt.png);
+    background-image: url(Images/hatterProjekt.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     top: 138px;
@@ -933,14 +933,6 @@ footer h1 {
 #gomb:hover, #gomb2:hover, #gomb3:hover, #gomb4:hover {
     box-shadow: 0 0 3px #ffffff;
     text-shadow: 0 0 1px #ffffff;
-}
-
-#gomb, #gomb3 {
-    bottom: 150px;
-}
-
-#gomb4 {
-    bottom: 50px;
 }
 
 .scrollable-place {
