@@ -316,7 +316,7 @@ body {
     }
     100% {
         transform: translate(0,-2000px);
-        display: 0;
+        display: none;
     }
 }
 
@@ -524,7 +524,7 @@ p.besuhan {
     width: 50%;
     position: relative;
     margin-top: 50px;
-    left: calc(50%-550px);
+    left: 0;
     z-index: 10;
     box-shadow: 0 0 10px 1px rgba(219, 219, 219, 0.75);  
 }
@@ -647,7 +647,7 @@ p.besuhan {
 }
 
 .Box:hover {
-    transition: 2 s;
+    transition: width 0.5s, height 0.5s;
     min-width: 500px;
     max-width: 500px;
 }

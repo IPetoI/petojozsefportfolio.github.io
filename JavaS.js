@@ -4,7 +4,9 @@ const harmadikGomb = document.getElementById("gomb3"); // projektek
 const negyedikGomb = document.getElementById("gomb4"); // elerhetosegek
 
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction();
+};
 
 function scrollFunction() {
 
@@ -23,20 +25,20 @@ function scrollFunction() {
       masodikGomb.style.display = "none";
     }
 
-    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180 
-      && !(document.body.scrollTop > 1530 || document.documentElement.scrollTop > 1530)) {
+    if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180 &&
+      !(document.body.scrollTop > 1530 || document.documentElement.scrollTop > 1530)) {
         harmadikGomb.style.bottom =  "100px";
         harmadikGomb.style.display = "block";
-    }else if (document.body.scrollTop > 162 || document.documentElement.scrollTop > 162 
-      && (document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
+    }else if (document.body.scrollTop > 162 || document.documentElement.scrollTop > 162 &&
+      (document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
         harmadikGomb.style.bottom =  "100px";
         harmadikGomb.style.display = "block";
     }else {
       harmadikGomb.style.display = "none";
     }
 
-    if (document.body.scrollTop > 128 || document.documentElement.scrollTop > 128 
-      && !(document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
+    if (document.body.scrollTop > 128 || document.documentElement.scrollTop > 128 &&
+      !(document.body.scrollTop > 3270 || document.documentElement.scrollTop > 3270)) {
         negyedikGomb.style.bottom =  "50px";
         negyedikGomb.style.display = "block";
     }else {
@@ -171,9 +173,9 @@ function nagyitas(kep) {
   document.body.classList.add("neGorgess");
 }
 
-const span = document.getElementById("bezar");
+const bezaras = document.getElementById("bezar");
 
-span.onclick = function() { 
+bezaras.onclick = function() { 
   modal.style.display = "none";
   if (window.innerWidth > 1290) {
     elsoGomb.style.display = "block";
@@ -182,4 +184,4 @@ span.onclick = function() {
   }
 
   document.body.classList.remove("neGorgess");
-}
+};
