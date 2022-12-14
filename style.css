@@ -135,10 +135,10 @@
         background-size: 400% 100% !important;
     }
     #phone {
-        left: 15% !important;
+        left: 10% !important;
     }
     #email {
-        right: 15% !important;
+        right: 10% !important;
     }
   }
   
@@ -836,8 +836,8 @@ p.besuhan {
 }
 
 #Kontakt p {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    font-size: 24px;
+    color: rgb(195, 195, 195);
     -webkit-text-stroke: 0.1px rgb(255, 255, 255);
     text-shadow: 1px 1px 0.4px rgb(255, 255, 255);
 }
@@ -879,7 +879,7 @@ p.besuhan {
     height: 50px;
     filter: invert(100%);
     position: relative;
-    left: 30%;
+    left: 65px;
     padding-bottom: 10px;
 }
 
@@ -888,7 +888,7 @@ p.besuhan {
     height: 50px;
     filter: invert(100%);
     position: relative;
-    left: 35%;
+    left: 103px;
     padding-bottom: 10px;
 }
 
