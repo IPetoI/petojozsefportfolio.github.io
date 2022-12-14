@@ -1,0 +1,1008 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-size: 400% 30% !important;
+        position: relative;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    nav ul li a::after {
+        bottom: -2px !important;
+    }
+    nav ul li {
+        margin-bottom: 3px;
+        margin-left: 0;
+    }
+    #mid {
+        min-width: 360px !important;
+        width: 90% !important;
+        position: relative;
+        top: -80px !important;
+    }
+    .szovegDivMid h1 {
+        font-size: 50px !important;
+    }
+    .szovegDivMid p {
+        font-size: 18px !important;
+    }
+    .kepDivMid img {
+        padding-left: 0 !important;
+        right: -17% !important;
+        top: 290px !important;
+        width: 90% !important;
+    }
+    .szovegDivMid p, .szovegDivMid h1 {
+        padding-left: 0% !important;
+    }
+    #CV img {
+        width: 80% !important;
+    }
+    #Projekt {
+        background-size: 500% 100% !important;
+    }
+    #Projekt h2{
+        font-size: 25px;
+    }
+    .Box:hover {
+        min-width: 370px !important;
+    }
+    .Box {
+        max-width: 350px !important;
+        width: 350px !important;
+        min-width: 300px !important;
+    }
+    .lapozoOldalak img, .lapozoOldalak2 img, .lapozoOldalak3 img, .lapozoOldalak4 img, .lapozoOldalak5 img, .lapozoOldalak6 img,.lapozoOldalak7 img, .lapozoOldalak8 img {
+        width: 80% !important;
+    }
+    #phone {
+        position: relative !important;
+        left: 0 !important;
+        top: -35px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display:flex !important;
+        justify-content: center !important;
+    }
+    #email {
+        position: relative !important;
+        right: 0 !important;
+        top: -30px !important;
+        justify-content: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: flex !important; 
+    }
+    .phone-icon {
+        left: -5px !important;
+        top: -10px !important;
+    }
+    .email-icon {
+        left: -5px !important;
+        top: -10px !important;
+    }
+    .nagyKep {
+        height: 50% !important;
+        width: 90% !important;
+    }
+    #bezar {
+        position: relative !important;
+        right: -10px !important;
+        top: -10px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    body {
+        background-size: 300% 30% !important;
+        position: relative;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    nav ul li {
+        margin-bottom: 3px;
+        margin: 0 6px !important;
+    }
+    nav ul li:last-child {
+        margin-right: -20px !important;
+    }
+    #mid {
+        position: relative;
+        top: 0px !important;
+    }
+    .szovegDivMid h1 {
+        font-size: 50px !important;
+    }
+    .szovegDivMid p {
+        font-size: 18px !important;
+        max-width: 330px;
+    }
+    .kepDivMid img {
+        right: -69% !important;
+        width: 60% !important;
+        top: -10px !important;
+    }
+    .szovegDivMid p, .szovegDivMid h1 {
+        padding-left: 0% !important;
+    }
+    #CV img {
+        width: 80% !important;
+    }
+    #Projekt {
+        background-size: 400% 100% !important;
+    }
+    #phone {
+        left: 15% !important;
+    }
+    #email {
+        right: 15% !important;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    body {
+        background-size: 400% 30% !important;
+        position: relative;
+    }
+    html, body {
+        overflow-x: hidden;
+    }
+    nav ul li:last-child {
+        margin-right: 10px !important;
+    }
+    .szovegDivMid p {
+        max-width: 410px;
+    }
+    #Projekt {
+        background-size: 300% 100% !important;
+    }
+    nav ul li {
+        margin-bottom: 3px;
+        margin: 0 20px !important;
+    }
+    .szovegDivMid h1 {
+        font-size: 60px !important;
+    }
+    .kepDivMid img {
+        width: 60% !important;
+        height: auto !important;
+        position: relative !important;
+        top: -50px !important;
+        right: -63% !important;
+    }
+  } 
+  
+  @media only screen and (min-width: 992px) {
+    body {
+        background-size: 200% 30% !important;
+        position: relative;
+    }
+    html, body {
+        overflow-x:visible;
+    }
+    nav ul li:last-child {
+        margin-right: 15px !important;
+    }
+    nav ul li {
+        margin-bottom: 3px;
+        margin: 0 !important;
+        margin-right: 40px !important;
+    }
+    .szovegDivMid p {
+        max-width: 500px;
+    }
+    .kepDivMid img {
+        top: -100px !important;
+        right: -53% !important;
+    }
+    #CV img {
+        width: 60% !important;
+    }
+    #Projekt {
+        background-size: 200% 100% !important;
+    }
+    #phone {
+        left: 25% !important;
+    }
+    #email {
+        right: 25% !important;
+    }
+    .Box:hover {
+        min-width: 350px !important;
+        width: 450px! important;
+    }
+    .lapozoOldalak img, .lapozoOldalak2 img, .lapozoOldalak3 img, .lapozoOldalak4 img, .lapozoOldalak5 img, .lapozoOldalak6 img,.lapozoOldalak7 img, .lapozoOldalak8 img {
+        width: 90% !important;
+    }
+    .Box {
+        max-width: 450px !important;
+        width: 450px !important;
+        min-width: 400px !important;
+    }
+    .lapozo {
+        width: 450px !important;
+    }
+  } 
+  @media only screen and (min-width: 1200px) {
+    body {
+        background-size: 100% 30% !important;
+    }
+    nav ul li {
+        margin-bottom: 3px;
+        margin: 0 !important;
+        margin-left: 10px !important;
+        margin-right: 30px !important;
+    }
+    nav ul li:last-child {
+        margin-right: 30px !important;
+    }
+    .szovegDivMid p, .szovegDivMid h1 {
+        padding-left: 60px !important;
+    }
+    .szovegDivMid p {
+        max-width: 580px;
+    }
+    .kepDivMid img {
+        top: -140px !important;
+    }
+    #CV img {
+        width: 50% !important;
+    }
+    #Projekt {
+        background-size: 100% 100% !important;
+    }
+    .Box:hover {
+        min-width: 350px !important;
+        width: 490px! important;
+    }
+    .Box {
+        max-width: 490px !important;
+        width: 450px !important;
+        min-width: 400px !important;
+    }
+    .lapozo {
+        width: 490px !important;
+    }
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Images/hatter.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    margin-right: 0;
+    position: relative;
+}
+
+#belepo {
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    animation: tolto 2.3s linear forwards;
+}
+
+#belepo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    animation: feny 0.5s linear forwards;
+}
+
+@keyframes tolto {
+
+    0% {
+        opacity: 1;
+    }
+    30% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(0,-2000px);
+        display: 0;
+    }
+}
+
+@keyframes feny {
+
+    0% {
+        box-shadow: 0 0 10px 0 rgba(233, 233, 233, 0.75);
+    }
+    40% {
+        box-shadow: 0 0 100px 40px rgba(255, 255, 255, 0.5);
+    }
+    60% {
+        box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.75);
+    }
+    80% {
+        box-shadow: 0 0 200px 50px rgba(255, 255, 255, 0.5);
+    }
+    100% {
+        box-shadow: 0 0 40px 5px rgba(233, 233, 233, 0.75);
+    }
+}
+
+.koztes {
+    position: absolute;
+    z-index: 90;
+    margin-top: 103px;
+    background-image: url(Images/koztes.png);
+    width: 100%;
+    height: 83px;
+}
+
+#koztes {
+    position: absolute;
+    z-index: 90;
+    margin-top: -35px;
+    background-image: url(Images/koztes.png);
+    width: 100%;
+    height: 83px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    padding: 0% 10% 0% 8%;
+    background-image:linear-gradient(180deg, rgb(0, 0, 0), transparent);
+    margin: -40px 0 ;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+
+nav ul {
+    margin-right: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.3px rgb(0, 0, 0);
+    position: relative;
+    text-shadow: 0px 1px 3px #bbb;
+}
+
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 255, 255);
+    transition: width 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 70%;
+}
+
+nav ul li a:hover {
+    text-shadow: 0 1px 5px #bbb;
+}
+
+#mid {
+    width: 90%;
+    min-width: 480px;
+    padding-top: 400px;
+    padding: 0% 10%;
+    padding-left: 40px;
+    margin: 40px 0;
+    height: 30%;
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+  
+.szovegDivMid {
+    margin-top: 170px;
+    max-width: 700px;
+}
+
+.besuhan {
+    animation: slideleft 2s linear forwards;
+    transform: translate(100px);
+    opacity: 0;
+}
+
+@keyframes slideleft {
+
+    70% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+p.besuhan {
+    animation-delay: 0.5s;
+}
+
+.szovegDivMid h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 130px;
+    color: rgb(234, 234, 234);
+    text-shadow: 10px 1px 1px #646464,
+        10px 1px 2px #646464,
+        10px 1px 3px #646464,
+        10px 1px 4px #646464,
+        10px 1px 5px #646464,
+        10px 1px 6px #646464,
+        10px 1px 7px #646464,
+        10px 1px 8px #646464,
+        10px 1px 9px #646464,
+        10px 1px 10px #646464;
+}
+
+.szovegDivMid p {
+    font-size: 22px;
+    padding-left: 160px;
+    padding-bottom: 60px;
+    margin-bottom: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #646464,
+        1px 2px 1px #646464,
+        1px 3px 1px #646464;
+        opacity: 0;
+}
+
+.kepDivMid {
+    position: absolute;
+    top: 10px;
+    right: 14%;
+    z-index: 1;
+}
+
+.kepDivMid img {
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: -140px;
+    right: -53%;
+}
+
+#CV {
+    padding-top: 50px;
+    padding-bottom: 1px;
+    background-image: url(Images/hatterCV.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    top: 140px;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#CV img {
+    height: 50%;
+    width: 50%;
+    position: relative;
+    margin-top: 50px;
+    left: calc(50%-550px);
+    z-index: 10;
+    box-shadow: 0 0 10px 1px rgba(219, 219, 219, 0.75);  
+}
+
+#CV h1 {
+    color: rgb(224, 224, 224);
+    text-shadow: 0px 1px 4px rgb(255, 255, 255);
+}
+
+#CV a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background: black;
+    left: calc(50% - 110px);
+    padding: 10px 30px;
+    font-size: 20px;
+    margin: 40px;
+    border-radius: 6px;
+    width: 140px;
+    z-index: 10;
+    box-shadow: 0 0 3px #282828;
+    text-shadow: 0 0 5px #282828;
+}
+
+#CV a:active {
+    transform: translateY(2px);
+}
+
+#CV a:hover {
+    animation: lassan 0.2s linear ;
+    box-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 5px #ffffff;
+    box-shadow: 0 0 20px 0 rgba(219, 219, 219, 0.75);
+}
+
+@keyframes lassan {
+
+    0% {
+        background: black;
+        box-shadow: 0 0 10px 0 rgba(219, 219, 219, 0.75);
+    }
+    100% {
+        box-shadow: 0 0 20px 0 rgba(219, 219, 219, 0.75);
+    }
+}
+
+
+#Projekt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    background-image: url(Images/hatterProjekt.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    top: 138px;
+    padding-bottom: 200px;
+    margin-bottom: 138px;
+}
+
+#Projekt h1 {
+    position: absolute;
+    margin-top: 45px;
+    text-align:center;
+    color: rgb(242, 242, 242);
+    text-shadow: 0px 1px 4px rgb(255, 255, 255);
+}
+
+.Box {
+    position: relative;
+    max-width: 500px;
+    width: 450px;
+    min-width: 300px;
+    min-height: 250px;
+    min-height: 350px;
+    margin: 50px 30px 0 30px;
+    text-align: center;
+    transition: 0.6s;
+    background-image: url("Images/Projekts/TA/H.png");
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+    background-position: center;
+    background-size:cover;
+    border-radius: 5px;
+    top: 100px;
+}
+
+#Varosi_Tomegkozlekedes {
+    background-image: url("Images/Projekts/VTK/H.png");
+}
+
+#Aknakereso {
+    background-image: url("Images/Projekts/AKN/H.png");
+}
+
+#Friends {
+    background-image: url("Images/Projekts/FRI/H.png");
+}
+
+#Hero {
+    background-image: url("Images/Projekts/HMM/H.jpg");
+}
+
+#Slender {
+    background-image: url("Images/Projekts/TEP/H.png");
+}
+
+#Paint {
+    background-image: url("Images/Projekts/PAI/H.png");
+}
+
+#Zebra {
+    background-image: url("Images/Projekts/ZEB/H.png");
+}
+
+#Varosi_Tomegkozlekedes:hover, #Aknakereso:hover, #Friends:hover, #Hero:hover, #Slender:hover, #Paint:hover, #Zebra:hover, #Terepasztal:hover  {
+    background: linear-gradient(120deg, #575757, #1d1d1d, #575757);
+}
+
+.Box:hover {
+    transition: 2 s;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+.Box:hover .lapozo img, .Box:hover .lapozo, .Box:hover .potty, .Box:hover .potty2, .Box:hover .potty3
+        , .Box:hover .potty4, .Box:hover .potty5, .Box:hover .potty6, .Box:hover .potty8, .Box:hover a, .Box:hover .jobb,
+        .Box:hover .bal {
+    visibility:visible;
+    transition-delay:0.3s;
+}
+
+.Box:hover h2 {
+    vertical-align: top;
+    align-items:baseline;
+    margin-top: 10px;
+    height: 0;
+}
+
+.Box:hover h4 {
+    display: none;
+}
+
+.Box h2, .Box h4 {
+    position: absolute;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    color: white;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.Box h4 {
+    font-size: 22px !important;
+    top: 207px !important;
+    height: 0% !important;
+}
+
+.Box a {
+    color: whitesmoke;
+    top: 4px;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    visibility:hidden;
+    vertical-align: bottom;
+}
+
+.Box a:hover {
+    color: rgb(208, 208, 208);
+}
+
+.lapozo {
+    visibility: hidden;
+    display: block;
+    height: 300px !important;
+    width: 100% !important;
+  }
+
+.lapozoOldalak img, .lapozoOldalak2 img, .lapozoOldalak3 img, .lapozoOldalak4 img, .lapozoOldalak5 img, .lapozoOldalak6 img
+        , .lapozoOldalak8 img {
+
+    height: 250px;
+    position:relative;
+    top: 50px;
+    border: 5px solid #575757;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.lapozoOldalak7 img {
+    width: 90%;
+    height: 250px;
+    position:relative;
+    top: 50px;
+    border: 5px solid #575757;
+}
+
+#egyKepA {
+    top: 15px !important;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(100px);
+        opacity: 0;
+    }
+    15% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    85% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-100px);
+        opacity: 0;
+    }
+  }
+
+@keyframes slide2 {
+  0% {
+      transform: translate(-100px);
+      opacity: 0;
+  }
+  15% {
+      transform: translate(0px);
+      opacity: 1;
+  }
+  85% {
+      transform: translate(0px);
+      opacity: 1;
+  }
+  100% {
+      transform: translate(100px);
+      opacity: 0;
+  }
+}
+
+.potty, .potty2, .potty3, .potty4, .potty5, .potty6, .potty8 {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    visibility: hidden;
+}
+
+.bal {
+    color: #c7c7c7;
+    font-size: 90px;
+    z-index: 70;
+    height: 20px !important;
+    width: 20px !important;
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    margin-top: -202px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.jobb {
+    color: #c7c7c7;
+    font-size: 90px;
+    z-index: 70;
+    height: 20px !important;
+    width: 20px !important;
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    margin-top: -202px;
+    right: 20px;
+    cursor: pointer;
+}
+  
+.jelenlegi {
+    background-color: #717171;
+}
+
+#Kontakt {
+    width: 100%;
+    height: 300px;
+    display:block;
+    position: relative;
+    background-image: url("Images/elerheto.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#Kontakt h1 {
+    margin-bottom: 70px;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 1px 4px rgb(255, 255, 255);
+}
+
+#Kontakt p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    text-shadow: 1px 1px 0.4px rgb(255, 255, 255);
+}
+
+#phone {
+    position: absolute;
+    left: 25%;
+    top: 45%;
+    z-index: 90;
+}
+
+#phone:hover .phone-icon {
+    transform: translateY(-2px);
+}
+
+#phone:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+#email {
+    position: absolute;
+    right: 25%;
+    top: 45%;
+    z-index: 90;
+}
+
+#email:hover .email-icon {
+    transform: translateY(-2px);
+}
+
+#email:hover p {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+.phone-icon {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    position: relative;
+    left: 30%;
+    padding-bottom: 10px;
+}
+
+.email-icon {
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    position: relative;
+    left: 35%;
+    padding-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    position: absolute;
+    height: 161px;
+    width: 100%;
+    background-image: url(Images/footer.png);
+    background-position: center;
+    margin-top: -137px;
+}
+
+footer h1 {
+    font-size: 20px;
+    padding: 10px;
+    text-align:center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gomb, #gomb2, #gomb3, #gomb4 {
+    display: none; 
+    text-decoration: none;
+    position: fixed;
+    bottom: 60px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: none; 
+    background-color: rgb(77, 77, 77);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    box-shadow: 0 0 5px #000000;
+    text-shadow: 0 0 10px #000000;
+} 
+  
+#gomb:hover, #gomb2:hover, #gomb3:hover, #gomb4:hover {
+    box-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 1px #ffffff;
+}
+
+#gomb, #gomb3 {
+    bottom: 150px;
+}
+
+#gomb4 {
+    bottom: 50px;
+}
+
+.scrollable-place {
+    height: 1000px;
+}
+  
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+  
+.NKC {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+  
+.nagyKep {
+    margin: auto;
+    display: block;
+    width: 90%;
+    height: 550px;
+    max-width: 1200px; 
+    max-height: 550px;
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+  
+#bezar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+#bezar:hover,
+#bezar:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
