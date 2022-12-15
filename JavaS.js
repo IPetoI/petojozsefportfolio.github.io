@@ -53,16 +53,6 @@ function scrollFunction() {
   }
 }
 
-belepoMerete();
-function belepoMerete() {
-  const belepo = document.getElementById("belepo");
-  const belepoImg = document.getElementById("belepoImg");
-
-  belepo.style.width = window.innerWidth + "px";
-  belepoImg.style.marginTop = window.innerHeight/2-150 + "px";
-  belepo.style.height  = window.innerHeight + 50 + "px";
-}
-
 let foSzamlalo = -1;
 let szamlalo = 0;
 showSlides(true,'potty',0,'lapozoOldalak');
