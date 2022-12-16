@@ -145,11 +145,13 @@ function lapozasAnimacio(irany,kep) { // true bal - false jobb
 
 const modal = document.getElementById("nagyKepDiv");
 const modalImg = document.getElementById("img01");
+let melyikKep = document.getElementById("img01");
 
 
 function nagyitas(kep) {
 
-  const nagyitando = document.getElementById(kep);
+  let nagyitando = document.getElementById(kep);
+  melyikKep = nagyitando;
 
   modal.style.paddingTop = window.innerHeight/2-275 + "px";
 
@@ -161,6 +163,46 @@ function nagyitas(kep) {
   negyedikGomb.style.display = "none";
 
   document.body.classList.add("neGorgess");
+}
+
+function nagyLapozas(merre) { // true bal - false jobb
+  let kepek = [];
+  let index = 0;
+
+  if (melyikKep.src.slice(38, -7) == "PAI") {
+    for (let i=1; i < 3; i++) {
+      let utvonal = melyikKep.src.slice(0, -6)+i+".webp";
+      kepek.push(utvonal);
+    }
+  } else {
+    for (let i=1; i < 6; i++) {
+      let utvonal = melyikKep.src.slice(0, -6)+i+".webp";
+      kepek.push(utvonal);
+    }
+  }
+  
+  if (modalImg.src == kepek[0]) {
+    index = 0;
+  }else if (modalImg.src == kepek[1]) {
+    index = 1;
+  }else if (modalImg.src == kepek[2]) {
+    index = 2;
+  }else if (modalImg.src == kepek[3]) {
+    index = 3;
+  }else if (modalImg.src == kepek[4]) {
+    index = 4;
+  }
+
+  if (merre && index > 0) {
+    modalImg.src = kepek[index-1];
+    index--;
+  } else if (!merre && index < 4 && melyikKep.src.slice(38, -7) != "PAI") {
+    modalImg.src = kepek[index+1];
+    index++;
+  } else if (!merre && index < 1 && melyikKep.src.slice(38, -7) == "PAI") {
+    modalImg.src = kepek[index+1];
+    index++;
+  }
 }
 
 const bezaras = document.getElementById("bezar");

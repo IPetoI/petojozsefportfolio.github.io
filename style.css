@@ -54,6 +54,9 @@
         width: 350px !important;
         min-width: 300px !important;
     }
+    .Box a {
+        font-size: 15px;
+    }
     .lapozoOldalak img, .lapozoOldalak2 img, .lapozoOldalak3 img, .lapozoOldalak4 img, .lapozoOldalak5 img, .lapozoOldalak6 img,.lapozoOldalak7 img, .lapozoOldalak8 img {
         width: 80% !important;
     }
@@ -86,6 +89,9 @@
     .nagyKep {
         height: 50% !important;
         width: 90% !important;
+    }
+    #nagyJobb, #nagyBal {
+        margin-top: -270px !important;
     }
     #bezar {
         position: relative !important;
@@ -699,7 +705,7 @@ p.besuhan {
 
 .Box a {
     color: whitesmoke;
-    top: 4px;
+    top: 3px;
     position: relative;
     align-items: center;
     text-decoration: none;
@@ -792,7 +798,7 @@ p.besuhan {
     visibility: hidden;
 }
 
-.bal {
+.bal, .jobb {
     color: #c7c7c7;
     font-size: 90px;
     z-index: 70;
@@ -802,22 +808,19 @@ p.besuhan {
     display: inline-block;
     position: absolute;
     margin-top: -202px;
-    left: 10px;
     cursor: pointer;
+    padding-bottom: 120px;
+}
+
+.bal {
+    left: 0;
+    padding-right: 50px;
 }
 
 .jobb {
-    color: #c7c7c7;
-    font-size: 90px;
-    z-index: 70;
-    height: 20px !important;
-    width: 20px !important;
-    visibility: hidden;
-    display: inline-block;
-    position: absolute;
-    margin-top: -202px;
-    right: 20px;
-    cursor: pointer;
+    right: 0;
+    padding-right: 28px;
+    padding-left: 22px;
 }
   
 .jelenlegi {
@@ -976,6 +979,30 @@ footer h1 {
     animation-duration: 0.6s;
     margin-left: auto;
     margin-right: auto;
+}
+
+#nagyBal, #nagyJobb {
+    color: #c7c7c7;
+    font-size: 150px;
+    z-index: 70;
+    height: 50px !important;
+    width: 50px !important;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    margin-top: -370px;
+    cursor: pointer;
+    padding-bottom: 200px;
+}
+
+#nagyBal {
+    padding-right: 100px;
+}
+
+#nagyJobb {
+    right: 0;
+    padding-right: 50px;
+    padding-left: 50px;
 }
   
 @-webkit-keyframes zoom {
