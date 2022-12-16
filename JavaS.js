@@ -55,13 +55,13 @@ function scrollFunction() {
 
 let foSzamlalo = -1;
 let szamlalo = 0;
-showSlides(true,'potty',0,'lapozoOldalak');
-showSlides(true,'potty2',0,'lapozoOldalak2');
-showSlides(true,'potty3',0,'lapozoOldalak3');
-showSlides(true,'potty4',0,'lapozoOldalak4');
-showSlides(true,'potty5',0,'lapozoOldalak5');
-showSlides(true,'potty6',0,'lapozoOldalak6');
-showSlides(true,'potty8',0,'lapozoOldalak8');
+lapozas(true,'potty',0,'lapozoOldalak');
+lapozas(true,'potty2',0,'lapozoOldalak2');
+lapozas(true,'potty3',0,'lapozoOldalak3');
+lapozas(true,'potty4',0,'lapozoOldalak4');
+lapozas(true,'potty5',0,'lapozoOldalak5');
+lapozas(true,'potty6',0,'lapozoOldalak6');
+lapozas(true,'potty8',0,'lapozoOldalak8');
 timeout();
 function timeout() {
   setTimeout(function () {
@@ -69,24 +69,24 @@ function timeout() {
     if ( szamlalo == 5) {
       szamlalo = 0;
     }
-    showSlides(true,'potty',szamlalo,'lapozoOldalak');
-    showSlides(true,'potty2',szamlalo,'lapozoOldalak2');
-    showSlides(true,'potty3',szamlalo,'lapozoOldalak3');
-    showSlides(true,'potty4',szamlalo,'lapozoOldalak4');
-    showSlides(true,'potty5',szamlalo,'lapozoOldalak5');
-    showSlides(true,'potty6',szamlalo,'lapozoOldalak6');
-    showSlides(true,'potty8',szamlalo,'lapozoOldalak8');
+    lapozas(true,'potty',szamlalo,'lapozoOldalak');
+    lapozas(true,'potty2',szamlalo,'lapozoOldalak2');
+    lapozas(true,'potty3',szamlalo,'lapozoOldalak3');
+    lapozas(true,'potty4',szamlalo,'lapozoOldalak4');
+    lapozas(true,'potty5',szamlalo,'lapozoOldalak5');
+    lapozas(true,'potty6',szamlalo,'lapozoOldalak6');
+    lapozas(true,'potty8',szamlalo,'lapozoOldalak8');
     szamlalo++;
     timeout();
   }, 6000);
 }
 
-function showSlides(irany, gomb, hanyadik, kep) { // true bal - false jobb
+function lapozas(irany, gomb, hanyadik, kep) { // true bal - false jobb
 
   let i;
   let foszamlaloMasolat = foSzamlalo;
-  const slides = document.getElementsByClassName(kep);
-  const pottys = document.getElementsByClassName(gomb); 
+  let kepek = document.getElementsByClassName(kep);
+  let pottys = document.getElementsByClassName(gomb); 
 
   if ( hanyadik < 10) {
     foSzamlalo = hanyadik-1;
@@ -94,8 +94,8 @@ function showSlides(irany, gomb, hanyadik, kep) { // true bal - false jobb
     foSzamlalo=foSzamlalo;
   } 
 
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+  for (i = 0; i < kepek.length; i++) {
+    kepek[i].style.display = "none";  
   }
   for (i = 0; i < pottys.length; i++) {
     pottys[i].className = pottys[i].className.replace(" jelenlegi", "");
@@ -107,13 +107,13 @@ function showSlides(irany, gomb, hanyadik, kep) { // true bal - false jobb
     foSzamlalo++;
   } 
 
-  if (foSzamlalo == slides.length) {
+  if (foSzamlalo == kepek.length) {
     foSzamlalo = 0;
   } else if (foSzamlalo == -1) {
     foSzamlalo = 4;
   } 
 
-  slides[foSzamlalo].style.display = "block";  
+  kepek[foSzamlalo].style.display = "block";  
   pottys[foSzamlalo].className += " jelenlegi";
 
   if (irany && foszamlaloMasolat > hanyadik) {
@@ -169,7 +169,9 @@ function nagyLapozas(merre) { // true bal - false jobb
   let kepek = [];
   let index = 0;
 
-  if (melyikKep.src.slice(38, -7) == "PAI") {
+  let kep = melyikKep.src.slice(0, -7);
+
+  if (kep.slice(-3) == "PAI") {
     for (let i=1; i < 3; i++) {
       let utvonal = melyikKep.src.slice(0, -6)+i+".webp";
       kepek.push(utvonal);
@@ -196,10 +198,10 @@ function nagyLapozas(merre) { // true bal - false jobb
   if (merre && index > 0) {
     modalImg.src = kepek[index-1];
     index--;
-  } else if (!merre && index < 4 && melyikKep.src.slice(38, -7) != "PAI") {
+  } else if (!merre && index < 4 && kep.slice(-3) != "PAI") {
     modalImg.src = kepek[index+1];
     index++;
-  } else if (!merre && index < 1 && melyikKep.src.slice(38, -7) == "PAI") {
+  } else if (!merre && index < 1 && kep.slice(-3) == "PAI") {
     modalImg.src = kepek[index+1];
     index++;
   }
