@@ -408,6 +408,7 @@ nav ul li a {
     -webkit-text-stroke: 0.3px rgb(0, 0, 0);
     position: relative;
     text-shadow: 0px 1px 3px #bbb;
+    user-select: none;
 }
 
 nav ul li a::after {
@@ -549,6 +550,7 @@ p.besuhan {
     display: block;
     position: relative;
     text-decoration: none;
+    user-select: none;
     color: white;
     background: black;
     left: calc(50% - 110px);
@@ -689,6 +691,7 @@ p.besuhan {
     width: 100%;
     height: 100%;
     display: flex;
+    user-select: none;
     position: absolute;
     align-items: center;
     vertical-align: middle;
@@ -795,6 +798,7 @@ p.besuhan {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    user-select: none;
     visibility: hidden;
 }
 
@@ -810,6 +814,7 @@ p.besuhan {
     margin-top: -202px;
     cursor: pointer;
     padding-bottom: 120px;
+    user-select: none;
 }
 
 .bal {
@@ -910,6 +915,7 @@ footer {
     background-image: url(Images/footer.png);
     background-position: center;
     margin-top: -137px;
+    user-select: none;
 }
 
 footer h1 {
@@ -941,6 +947,7 @@ footer h1 {
     font-size: 15px;
     box-shadow: 0 0 5px #000000;
     text-shadow: 0 0 10px #000000;
+    user-select: none;
 } 
   
 #gomb:hover, #gomb2:hover, #gomb3:hover, #gomb4:hover {
@@ -993,6 +1000,7 @@ footer h1 {
     margin-top: -370px;
     cursor: pointer;
     padding-bottom: 200px;
+    user-select: none;
 }
 
 #nagyBal {
@@ -1023,6 +1031,7 @@ footer h1 {
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
+  user-select: none;
 }
 
 #bezar:hover,
