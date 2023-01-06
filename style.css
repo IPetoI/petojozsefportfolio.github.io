@@ -672,7 +672,7 @@ p.besuhan {
         , .Box:hover .potty4, .Box:hover .potty5, .Box:hover .potty6, .Box:hover .potty8, .Box:hover a, .Box:hover .jobb,
         .Box:hover .bal {
     visibility:visible;
-    transition-delay:0.3s;
+    transition-delay:0.1s;
 }
 
 .Box:hover h2 {
