@@ -656,7 +656,10 @@ p.besuhan {
 }
 
 #Varosi_Tomegkozlekedes:hover, #Aknakereso:hover, #Friends:hover, #Hero:hover, #Slender:hover, #Paint:hover, #Zebra:hover, #Terepasztal:hover  {
-    background: linear-gradient(120deg, #575757, #1d1d1d, #575757);
+    background: none;
+    background-color:rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .Box:hover {
@@ -707,17 +710,19 @@ p.besuhan {
 }
 
 .Box a {
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     top: 3px;
     position: relative;
     align-items: center;
     text-decoration: none;
     visibility:hidden;
     vertical-align: bottom;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
 }
 
 .Box a:hover {
-    color: rgb(208, 208, 208);
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
 .lapozo {
@@ -794,7 +799,7 @@ p.besuhan {
     height: 10px;
     width: 10px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: rgb(104, 104, 104);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -803,7 +808,7 @@ p.besuhan {
 }
 
 .bal, .jobb {
-    color: #c7c7c7;
+    color: #141414;
     font-size: 90px;
     z-index: 70;
     height: 20px !important;
@@ -829,7 +834,7 @@ p.besuhan {
 }
   
 .jelenlegi {
-    background-color: #717171;
+    background-color: #242424;
 }
 
 #Kontakt {
