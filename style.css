@@ -754,7 +754,7 @@ p.besuhan {
 
 @keyframes slide {
     0% {
-        transform: translate(100px);
+        transform: translate(20px);
         opacity: 0;
     }
     15% {
@@ -766,14 +766,14 @@ p.besuhan {
         opacity: 1;
     }
     100% {
-        transform: translate(-100px);
+        transform: translate(-20px);
         opacity: 0;
     }
   }
 
 @keyframes slide2 {
   0% {
-      transform: translate(-100px);
+      transform: translate(-20px);
       opacity: 0;
   }
   15% {
@@ -785,7 +785,7 @@ p.besuhan {
       opacity: 1;
   }
   100% {
-      transform: translate(100px);
+      transform: translate(20px);
       opacity: 0;
   }
 }
